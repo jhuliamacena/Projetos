@@ -1,0 +1,24 @@
+# Projetos
+escolha_o_zoom = input('Digite o zoom que voce quer:')
+mensagem = input('Houve mudança na variável adicionada?  sim ou não:')
+print((mensagem=='s' and escolha_o_zoom!=zoom) or (mensagem=='n' and escolha_o_zoom==zoom))
+ 
+escolha_os_feixes = input('Digite o número de feixes que você quer:')
+mensagem = input('Foram feiras mudanças nas variáveis adicionadas? sim ou não:')
+print((mensagem=='s' and escolha_os_feixes!=n_feixes) or (mensagem=='n' and escolha_os_feixes=os_feixes))
+
+escolha_o_pixels = input('Digite o número de feixes que você quer:')
+mensagem = input('Foram feiras mudanças nas variáveis adicionadas? sim ou não:')
+print((mensagem=='s' and escolha_o_pixels!=pixels) or (mensagem=='n' and escolha_o_pixels==pixels))
+ 
+escolha_SNR = input('Digite qual a razão sinal-ruído desejada:')
+mensagem = input('Houve alteração na variável inserida? Digite s ou n:')
+print((mensagem=='s' and escolha_Snr!=Snr) or (mensagem=='n' and escolha_SNR==Snr))
+ 
+escolha_tamanho_imagem = input('Digite qual o tamanho da imagem a ser gerada:')
+mensagem = input('Houve alteração na variável inserida? Digite s ou n:')
+print((mensagem=='s' and escolha_tamanho_imagem!=tamanho_imagem) or (mensagem=='n' and escolha_tamanho_imagem==tamanho_imagem))
+ 
+escolha_salvar_como = input('Digite o formato que deseja salvar a imagem a ser gerada:')
+mensagem = input('Houve alteração na variável inserida? Digite s ou n:')
+print((mensagem=='s' and escolha_salvar_como!=salvar_como) or (mensagem=='n' and escolha_salvar_como==salvar_como))
