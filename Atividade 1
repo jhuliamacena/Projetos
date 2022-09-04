@@ -1,0 +1,46 @@
+# Projetos
+#Lokomat
+Se o paciente está apto a realizar o exercício “decisão”
+Então posicione o colete de tamanho ajustado ao tamanho e peso”processamento”
+Travar todos os feixes do colete de acordo com a circunferência abdominal “processamento”
+Subir no dispositivo através da rampa com a cadeira de rodas”processamento”
+Baixar através do controle o suporte que sustentará o peso do paciente paralelamente aos seus ombros “processamento”
+Acoplar o suporte da máquina à alça do colete”processamento”
+Suspender cerca de 40 centímetros da cadeira de rodas para que possa retirá-la e dar espaço para que o paciente fique em posição ortostática”processamento”
+Se o paciente estiver em posição ortostática, suspenda totalmente o paciente e visando a posição ortostática, utilizando a barra paralela como apoio”decisão”
+Se não, coloque-o em posição ortostática”decisão”
+Posicione a segunda parte da máquina para estabilidade do tronco, ajuste os feixes na tuberosidade do úmero, no joelho e porção média da panturrilha”processamento”
+Ajuste os ângulos de flexoextensão de joelho e use o apoio da porção distal do pé
+Inicie com a tecla "Training"”processamento”
+Clique em "Start position"”processamento”
+Baixar gradativamente o paciente monitorando o posicionamento dos membros inferiores”processamento”
+Se as etapas anteriores foram executadas corretamente ”decisão”
+Graduar velocidade, peso e intensidade do exercício “processamento”
+Corrigir alterações posturais da marcha “processamento”
+Se realizou o treino sem interrupções “decisão”
+Finalizar padrões de marcha em 30 minutos “processamento”
+Finalizar
+
+#ZeroG
+Se o paciente está apto a realizar o exercício “decisão”
+Ajustar o colete de acordo tamanho e peso do paciente “processamento”
+Conectar ao suporte de peso logo acima dos ombros”processamento”
+Se o ajuste estiver de acordo com a posição ortostática do paciente”decisão”
+Sustentar 50% de carga do paciente”processamento”
+Pedir que o paciente realize a marcha”processamento”
+Se o paciente iniciar a marcha”decisão”
+Monitorar os ângulos que serão realizados e possíveis alterações dinâmicas impostas às articulações”processamento”
+Se realizou o treino sem interrupções “decisão”
+Finalizar a marcha em 20 minutos “processamento”
+Finalizar
+
+Pseudocódigo
+ALGORITMO ZERO_G
+VAR INICIO DA MARCHA, MARCHA NÃO INICIADA: LITERAL
+INICIO 
+LEIA INICIAR A MARCHA, NÃO INICIAR A MARCHA 
+SE OS EQUIPAMENTOS ESTIVEREM AJUSTADOS
+ENTAO MONITORAR OS  NGULOS QUE SERÃO REALIZADOS E POSSÍVEIS ALTERAÇÕES DIN MICAS IMPOSTAS ÀS ARTICULAÇÕES
+SENAO REAJUSTAR EQUIPAMENTOS DE SEGURANÇA
+FIM_SE
+FIM
