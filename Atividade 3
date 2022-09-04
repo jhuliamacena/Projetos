@@ -1,24 +1,125 @@
-# Projetos
-escolha_o_zoom = input('Digite o zoom que voce quer:')
-mensagem = input('Houve mudança na variável adicionada?  sim ou não:')
+inicio = 'Este programa serve para configuração do microscópio confocal para aquisição de imagens.'
+print(inicio)
+ 
+alt_mensagem = ' variável inserida foi mudada?'
+ 
+tipo_da_celula = 'neurônio piramidal'
+resolucao = '212 nm'
+comprimento_da_onda = '405 nm'
+filtro = 'texas red'
+zoom = '10x'
+n_de_feixes = '1'
+pixels = '248'
+Snr = '23'
+#SNR = razão sinal-ruído
+tamanho_da_imagem = '10.5 x 3.43 cm'
+salvo_como = 'JPEG'
+ 
+escolha_tipo_da_celula = input('Qual o tipo da célula:')
+mensagem = input('A variável inserida foi mudada? sim ou não:')
+print((mensagem=='s' and escolha_tipo_da_celula!=tipo_da_celula) or (mensagem=='n' and escolha_tipo_da_celula==tipo_da_celula))
+ 
+escolha_a_resolucao = input('Nos diga a resolução desejada:')
+mensagem = input('A variável inserida foi mudada? sim ou não:')
+print((mensagem=='s' and escolha_resolucao!=resolucao) or (mensagem=='n' and escolha_resolucao==resolucao))
+ 
+escolha_o_comprimento_onda = input('Qual o comprimento de onda:')
+mensagem = input('A variável inserida foi mudada? sim ou não:')
+print((mensagem=='s' and escolha_o_comprimento_onda!=comprimento_onda) or (mensagem=='n' and escolha_o_comprimento_onda==comprimento_onda))
+ 
+escolha_o_filtro = input('Qual o filtro desejado:')
+mensagem = input(‘A variável inserida foi mudada? sim ou não:')
+print((mensagem=='s' and escolha_o_filtro!=filtro) or (mensagem=='n' and escolha_o_filtro==filtro))
+ 
+escolha_o_zoom = input('Qual zoom você deseja:')
+mensagem = input('A variável inserida foi mudada? sim ou não:')
 print((mensagem=='s' and escolha_o_zoom!=zoom) or (mensagem=='n' and escolha_o_zoom==zoom))
  
-escolha_os_feixes = input('Digite o número de feixes que você quer:')
-mensagem = input('Foram feiras mudanças nas variáveis adicionadas? sim ou não:')
-print((mensagem=='s' and escolha_os_feixes!=n_feixes) or (mensagem=='n' and escolha_os_feixes=os_feixes))
-
-escolha_o_pixels = input('Digite o número de feixes que você quer:')
-mensagem = input('Foram feiras mudanças nas variáveis adicionadas? sim ou não:')
-print((mensagem=='s' and escolha_o_pixels!=pixels) or (mensagem=='n' and escolha_o_pixels==pixels))
+escolha_os_feixes = input('Qual o número de feixes você deseja:')
+mensagem = input('A variável inserida foi mudada? sim ou não:')
+print((mensagem=='s' and escolha_os_feixes!=os_feixes) or (mensagem=='n' and escolha_os_feixes==os_feixes))
  
-escolha_SNR = input('Digite qual a razão sinal-ruído desejada:')
-mensagem = input('Houve alteração na variável inserida? Digite s ou n:')
+escolha_os_pixels = input(‘Qual o número de pixels que você deseja:')
+mensagem = input(‘A variável inserida foi mudada? sim ou não:')
+print((mensagem=='s' and escolha_os_pixels!=pixels) or (mensagem=='n' and escolha_os_pixels==pixels))
+ 
+escolha_SNR = input(‘Qual razão sinal-ruído você deseja:')
+mensagem = input('A variável inserida foi mudada? sim ou não:')
 print((mensagem=='s' and escolha_Snr!=Snr) or (mensagem=='n' and escolha_SNR==Snr))
  
-escolha_tamanho_imagem = input('Digite qual o tamanho da imagem a ser gerada:')
-mensagem = input('Houve alteração na variável inserida? Digite s ou n:')
-print((mensagem=='s' and escolha_tamanho_imagem!=tamanho_imagem) or (mensagem=='n' and escolha_tamanho_imagem==tamanho_imagem))
+escolha_o_tamanho_da_imagem = input(int('Qual tamanho a imagem deve ser gerada:'))
+mensagem = input(‘A variável inserida foi mudada? sim ou não:')
+print((mensagem=='s' and escolha_tamanho_imagem!=tamanho_imagem) or (mensagem=='n' and escolha_o_tamanho_da_imagem==tamanho_da_imagem))
  
-escolha_salvar_como = input('Digite o formato que deseja salvar a imagem a ser gerada:')
-mensagem = input('Houve alteração na variável inserida? Digite s ou n:')
+escolha_salvar_como = input(‘Em qual formato vocÊ deseja salvar a imagem a ser gerada:')
+mensagem = input('A variável inserida foi mudada? sim ou não:')
 print((mensagem=='s' and escolha_salvar_como!=salvar_como) or (mensagem=='n' and escolha_salvar_como==salvar_como))
+ 
+infos = ('Configurações definidas pelo usuário:')
+ 
+print(infos)
+print(escolha_tipo_celula)
+print(escolha_resolucao)
+print(escolha_o_comprimento_onda)
+print(escolha_filtro)
+print(escolha_zoom)
+print(escolha_os_feixes)
+print(escolha_os_pixels)
+print(escolha_SNR)
+print(escolha_o_tamanho_da_imagem)
+print(escolha_salvar_como)
+ 
+calibre = 'Iniciando a calibração, siga de acordo com as instruções:'
+print(calibre)
+ 
+calibre_de_telaH = 'Calibração de tela horizontalmente'
+print(calibre_de_telaH)
+ 
+calibreI = input('Qual a primeira letra do seu nome:')
+nome_okI = 'Primeira letra digitada com sucesso:'
+print (nome_okI, end=''), print(calibreI)
+ 
+calibreI_x = input('Por favor digite 10x a letra inicial de seu nome:')
+mensagemI = input('A letra inicial de seu nome foi digitada 10x? sim ou não:')
+ 
+sucesso= 'Calibração feita com sucesso:'
+print(sucesso, end=''), print(calibreI_x == calibreI*10)
+ 
+calibreF = input('Qual a última letra de seu nome:')
+nome_okF = 'Última letra digitada com sucesso:'
+print (nome_okF, end=''), print(calibreF)
+ 
+calibreF_x = input('Por favor digite 10x a última letra de seu nome:')
+mensagemF = input('A última letra de seu nome foi digitada 10x? sim ou não:')
+ 
+sucesso= 'Calibração feita com sucesso:'
+print(sucesso, end=''), print(calibreF_x == calibreF*10)
+ 
+fim_horizontal = 'Calibração de tela no sentido horizontal finalizada, caso alguma resposta foi Falsa, por favor, repita o  processo.'
+print(fim_horizontal)
+ 
+calibre_telaV = 'Calibração de tela verticalmente'
+print(calibre_telaV)
+ 
+calibreY = input('Qual a segunda letra de seu nome:')
+nome_okY = 'Segunda letra digitada com sucesso:'
+print (nome_okY, end=''), print(calibreY)
+ 
+calibreY_x = input('Por favor, digite 10x a segunda letra de seu nome:')
+mensagemY = input('A segunda letra de seu nome foi digitada 10x? sim ou não:')
+ 
+sucesso= 'Calibração realizada com sucesso:'
+print(sucesso, end=''), print(calibreY_x == calibreY*10)
+ 
+calibreFF = input('Qual a penúltima letra de seu nome:')
+nome_okFF = 'Penúltima letra digitada com sucesso:'
+print (nome_okFF, end=''), print(calibreFF)
+ 
+calibreFF_x = input('Por favor, digite 10x a penúltima letra de seu nome:')
+mensagemFF = input('A penúltima letra de seu nome foi digitada 10x? sim ou não:')
+ 
+sucesso= ‘Calibração feita realizada com sucesso:'
+print(sucesso, end=''), print(calibreFF_x == calibreFF*10)
+ 
+acabou = 'Calibração finalizada: Caso alguma resposta foi Falsa, repita o processo.'
+print(Fim)
