@@ -1,0 +1,101 @@
+#Projetos
+#LISTAS 
+
+Estados = [ "Acre(AC)" , "Amazonas(AM)" , "Bahia(BA)" , "Ceará(CE)" , "Pará(PA)" , "Paraíba (PB)" , "Pernambuco(PE) " , "Piauí(PI)" , "Rio de Janeiro(RJ)" , "Rio grande do norte(RN)" ]
+População_estado = [881935 , 4144597 , 14873064 , 9132078 , 8602865 , 4018127 , 9557071 , 3273227 , 17264943 , 3506853]
+Óbitos_acumulados  = [612 , 3649 , 5397 , 8409 , 105778 , 125539 , 77405 , 131906 , 61748 , 55153]
+Novos_obitos  = [3 , 10 , 53 , 25 , 31 , 15 , 19 , 10 , 38 , 8]
+Casos_acumulados  = [24647 , 120296 , 256727 , 214953 , 199556 , 105778 , 125539 , 77405 , 223631 , 61748]
+Novos_casos  = [9 , 236 , 665 , 496 , 385 , 117 , 445 , 140 , 329 , 99]
+
+#RESUMINDO
+Acre = [estado[0], população_estado[0] , óbitos_acumulados[0], Novo_sobitos[0], casos_acumulados[0], novos_casos[0]]
+Amazonas = [estado[1], população_estado[1] , óbitos_acumulados[1], Novo_sobitos[1], casos_acumulados[1], novos_casos[1]]
+Bahia = [estado[2], população_estado[2] , óbitos_acumulados[2] , novos_obitos[2], casos_acumulados[2], novos_casos[2]]
+ceara  = [estado[3], população_estado[3] , óbitos_acumulados[3], novos_obitos[3], casos_acumulados[3], novos_casos[3]]
+para  = [estado[4], população_estado[4] , óbitos_acumulados[4], novos_obitos[4], casos_acumulados[4], novos_casos[4]]
+paraiba  = [estado[5], população_estado[5] , óbitos_acumulados[5], novos_obitos[5], casos_acumulados[5], novos_casos[5]]
+pernambuco  = [estado[6], população_estado[6] , óbitos_acumulados[6], novos_obitos[6], casos_acumulados[6], novos_casos[6]]
+piaui  = [estado[7], população_estado[7] , óbitos_acumulados[7], novos_obitos[7], casos_acumulados[7], novos_casos[7]]
+riodejaneiro = [estado[8], população_estado [ 8 ] , óbitos_acumulados[8], novos_obitos[8], casos_acumulados[8], novos_casos[8]]
+rio_grande_do_norte =[estado[9], população_estado[9], óbitos_acumulados [ 9 ], novos_obitos[9], casos_acumulados[9], novos_casos[9]]
+
+#REGIÕES DE SAÚDE 
+regioes = ["Baixo Acre e Purus" , "Triângulo" , "Seabra" , "19 região Brejo Santo" , "Tocantins" , "11ª região" , "Recife" , "Vale do rio Guaribas" , "Baia da Ilha Grande" " ,'1º Região de Saúde"]
+populaçãoregioes = [15256  , 16041 , 8739 , 11737 , 157698 , 10234 , 99990 , 7084 , 203785 , 34276]
+obitosacumulados2  = [8 , 13 , 1 , 2 , 114 , 2 , 92 , 0 , 151 , 17]
+novosobitos2  = [0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 4 , 0]
+casosacumulados2  = [428 , 1209 , 18 , 67 , 3045 , 54 , 770 , 35 , 4811 , 298]
+novoscasos2 = [1 , 0 , 665 , 0 , 28 , 0 , 1 , 0 , 118 , 0]
+
+#tuplas 
+estadotup  = ( "Acre(AC)" , "Amazonas(AM)" , "Bahia(BA)" , "Ceará(CE)" , "Pará(PA)" , "Paraíba(PB)" , "Pernambuco(PE) " , "Piauí(PI)" , "Rio de Janeiro(RJ)" , "Rio grande do norte(RN)")
+população_estado_tup = (881935  , 4144597 , 14873064 , 9132078 , 8602865 , 4018127 , 9557071 , 3273227 , 17264943 , 3506853)
+óbitos_acumulados_tup = (612 , 3649 , 5397 , 8409 , 105778 , 125539 , 77405 , 131906 , 61748 , 55153)
+novos_obitos_tup = (3 , 10 , 53 , 25 , 31 , 15 , 19 , 10 , 38 , 8)
+casos_acumulados_tup  = (24647 , 120296 , 256727 , 214953 , 199556 , 105778 , 125539 , 77405 , 223631 , 61748)
+novos_casos_tup = (9 , 236 , 665 , 496 , 385 , 117 , 445 , 140 , 329 , 99)
+
+#RESUMINDO
+Acre_tup  = (estado_tup[0], população_estado_tup [0], óbitos_acumulados_tup [0], novos_obitos_tup[0], casos_acumulados_tup [0], novos_casos_tup[0])
+Amazonas_tup = (estado_tup[1], população_estado_tup[1], óbitos_acumulados_tup[1], novos_obitos_tup[1], casos_acumulados_tup[1], novos_casos_tup[1])
+bahiatup  = (estado_tup[2], população_estado_tup[2], óbitos_acumulados_tup[2], novos_obitos_tup[2], casos_acumulados_tup[2], novos_casos_tup[2])
+ceara_tup = (estado_tup[3], população_estado_tup[3], óbitos_acumulados_tup[3], novos_obitos_tup[3], casos_acumulados_tup[3], novos_casos_tup[3])
+para_tup  = (estadotup[4], população_estado_tup[4], óbitos_acumulados_tup[4], novos_obitos_tup[4], casos_acumulados_tup[4], novos_casos_tup[4])
+paraiba_tup = (estado_tup[5], população_estado_tup[5], óbitos_acumulados_tup[5], novos_obitos_tup[5], casos_acumulados_tup[5], novos_casos_tup[5])
+Pernambuco_tup = (estado_tup [6], população_estado_tup[6] , óbitos_acumulados_tup[6], novos_obitos_tup[6], casos_acumulados_tup[6], novos_casos_tup[6])
+Piaui_tup = (estado_tup[7], população_estado_tup[7], óbitos_acumulados_tup[7], novos_obitos_tup[7], casos_acumulados_tup[7], novos_casos_tup[7])
+Rio_de_janeiro_tup = (estadotup[8], população_estado_tup[8] , óbitos_acumulados_tup[8], novos_obitos_tup[8], casos_acumulados_tup[8], novos_casos_tup[8])
+Rio_grande_do_norte_tup = (estadotup [9], população_estado_tup[9] , óbitos_acumulados_tup[9], novos_obitos_tup[9], casos_acumulados_tup[9], novos_casos_tup[9])
+
+#PRINTS
+print ("\n Número de casos acumulados no Rio de Janeiro:")
+
+print ( "O Rio de Janeiro (RJ) apresenta esses dados correspondentes ao N de processos acumulados: " , casos_acumulados[8])
+print ( "O Rio de Janeiro (RJ) apresenta os dados correspondetes ao N processos acumulados: " , casos_acumulados_tup[8])
+
+#ÓBITOS ACUMULADOS 
+print ("\n \n Óbitos acumulados pelo estado: ")
+
+print (estado[0], óbitos_acumulados[0])
+print (estado[1], óbitos_acumulados[1])
+print (estado[2], óbitos_acumulados[2])
+print (estado[3], óbitos_acumulados[3])
+print (estado[4], óbitos_acumulados[4])
+print (estado[5], óbitos_acumulados[5])
+print (estado[6], óbitos_acumulados[6])
+print (estado[7], óbitos_acumulados[7])
+print (estado[8], óbitos_acumulados[8])
+print (estado[9], óbitos_acumulados[9])
+
+#D
+print('Óbitos na paraíba -10',óbitos_acumulados[7]-6)
+#E
+#NÃO, AS TUPLAS NÃO PODEM SER MODIFICADAS 
+
+#F
+Estado_Municipio=['estados, municipios']
+print (Estados Municipios)
+
+#G
+Estado_Municipio.remove('municipio_roraima')
+#i
+len(Estado_Municipio)
+#j
+Novos_obitos=[3 , 10 , 53 , 25 , 31 , 15 , 19 , 10 , 38 , 8]
+print(max(novos_obitos))
+print(min(novos_obitos))
+
+#k
+estadoMunicipio={'RJ:Rio de Janeiro',
+                 'RN:Natal',
+                 'BA:Bahia',
+                 'CE: Ceara',
+                 'PA:Pará', }
+
+#l
+Municipio_T=("Maceió","Salvador","Fortaleza","São Luis","João Pessoa","Recife","Teresina","Natal",
+"Aracaju","Parnamirim")
+casos_novos_piaui=(77,153,41,73,1,57,31,24,180,19)
+print('teresina/piaui: ',casos_novos_piaui[6])
+print(Fim)
