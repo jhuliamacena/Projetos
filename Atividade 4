@@ -1,0 +1,49 @@
+# Projetos
+#Atividade 4
+
+print('Início')
+
+habituação = (input('O animal está habituado?'))
+if (habituação=='sim'):
+  print('Teste inicido')
+else:
+  print('O animal deve ser habituado antes das demais situações')
+
+dista = (input('O animal está distanciado da barra?'))
+if (dista=='sim'):
+  print('É necessário aproximar-se da barra')
+  print('Vamos prosseguir')
+if (dista=='nao'):
+  dista2 = (input('Qual a distância entre o animal e a barra?'))
+  if dista2<30:
+      print('Por favor, libere 0,5ml de suco.')
+  else:
+      print('Sem suco.')
+
+tbar = (input('O animal tocou a barra?'))
+if (tbar=='sim'):
+  tbar2 = (input('Quantas vezes tocou na barra?'))
+  if tbar2>=20:
+    print('O experimento passou para a próxima fase')
+  if tbar2<20:
+    print('O animal deve tocar 20x na barra para o experimento passar de fase')
+if (tbar=='nao'):
+    print('O animal deve tocar na barra para prosseguir o experimento')
+    print('Que pena, tente novamente')
+
+som01 = (input('Som 01 ativado. O animal tocou a barra esquerda?'))
+if (som01=='sim'):
+  print('Liberar 0,5ml de suco.')
+else:
+  print('Não liberar suco.')
+  som02 = (input('Som 02 ativado. O animal tocou a barra direita?'))
+if (som02=='sim'):
+  print('Libere 0,5ml de suco.')
+else:
+  print('Não libere suco.')
+
+perguntafinal = (input('Quantas vezes o animal tocou na barra no período de 30min?'))
+if perguntafinal>50:
+    print('O experimento passou para a próxima fase')
+if perguntafinal<50:
+    print('O animal precisa tocar 50x na barra, em 30min, para o experimento passar de fase.')
